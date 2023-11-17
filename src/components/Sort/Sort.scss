@@ -1,0 +1,36 @@
+.sort {
+  display: flex;
+  padding: 10px;
+  padding-left: 0;
+  font-family: 'Arial', sans-serif;
+
+  &__label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+
+    p {
+      margin-right: 10px;
+      font-weight: bold;
+    }
+
+    &__select {
+      padding: 8px 12px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      background-color: white;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      }
+
+      option {
+        padding: 5px;
+      }
+    }
+  }
+}
