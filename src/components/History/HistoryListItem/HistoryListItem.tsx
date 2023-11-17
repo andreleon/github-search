@@ -25,8 +25,8 @@ export const HistoryListItem: React.FC<HistoryListItemProps> = ({ record }) => {
         </p>
         <p>Query: "{record.params.query}"</p>
         {record.params.language && <p>Language: {record.params.language}</p>}
-        {record.params.stars && <p>Stars: {record.params.stars}+</p>}
-        {record.params.followers && (
+        {!!record.params.stars && <p>Stars: {record.params.stars}+</p>}
+        {!!record.params.followers && (
           <p>Followers: {record.params.followers}+</p>
         )}
         {record.params.sort && <p>Sorted by: {record.params.sort}</p>}
