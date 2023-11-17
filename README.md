@@ -1,5 +1,7 @@
 # GitHub Repository Search Application
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c6aa9e13-e96c-4721-9c75-9b749805b26f/deploy-status)](https://andreleon-github-search.netlify.app/)
+
 This project is a React-based Single Page Application (SPA) for searching GitHub repositories. It uses React with TypeScript, and leverages the GitHub API for fetching repository data. The application also incorporates MobX for state management, with persistent storage in `localStorage`.
 
 ## Features
